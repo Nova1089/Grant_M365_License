@@ -11,7 +11,7 @@ function Initialize-ColorScheme
 
 function Show-Introduction
 {
-    Write-Host "This script grants an M365 license to a list of users..." -ForegroundColor $script:infoColor
+    Write-Host "This script grants an M365 license to a list of users." -ForegroundColor $script:infoColor
     Write-Host "NOTE: Script does not track users who already had the license assigned, nor will it tell you when the available licenses have run out. It will continue without error in those cases." -ForegroundColor $script:infoColor
     Read-Host "Press Enter to continue"
 }
